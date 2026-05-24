@@ -1,0 +1,120 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Motivational Psychology">
+  <main class="min-h-screen">
+    <section class="hero min-h-screen bg-base-200">
+      <div class="hero-content w-full max-w-6xl flex-col gap-10 px-6 py-16 lg:flex-row-reverse">
+        <div class="card w-full max-w-2xl bg-base-100 shadow-2xl">
+          <div class="card-body gap-4">
+            <div class="badge badge-secondary badge-outline">Featured video</div>
+            <div class="aspect-video overflow-hidden rounded-box">
+              <iframe
+                class="h-full w-full"
+                src="https://www.youtube.com/embed/ZXsQAXx_ao0?si=Y2ZiNcB7htJ5v1Mo"
+                title="The psychology of self motivation"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="card-actions justify-between">
+              <div>
+                <h2 class="card-title">Start with self-motivation</h2>
+                <p class="text-sm text-base-content/70">
+                  A curated introduction to the mindset and habits behind sustained motivation.
+                </p>
+              </div>
+              <a
+                class="btn btn-primary"
+                href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Watch on YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-xl">
+          <div class="badge badge-accent badge-outline mb-4">Astro + DaisyUI</div>
+          <h1 class="text-4xl font-bold sm:text-5xl">
+            Practical motivational psychology for everyday momentum
+          </h1>
+          <p class="py-6 text-lg text-base-content/75">
+            Explore research-backed ideas, actionable habits, and video lessons designed to help
+            people start strong and keep going.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <a class="btn btn-primary" href="#videos">Explore videos</a>
+            <a class="btn btn-outline" href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+              Visit channel
+            </a>
+          </div>
+
+          <div class="stats mt-8 stats-vertical bg-base-100 shadow lg:stats-horizontal">
+            <div class="stat">
+              <div class="stat-title">Focus</div>
+              <div class="stat-value text-primary">3</div>
+              <div class="stat-desc">Core motivation themes</div>
+            </div>
+            <div class="stat">
+              <div class="stat-title">Format</div>
+              <div class="stat-value text-secondary">Video</div>
+              <div class="stat-desc">Fast, visual learning</div>
+            </div>
+            <div class="stat">
+              <div class="stat-title">Goal</div>
+              <div class="stat-value text-accent">Action</div>
+              <div class="stat-desc">Turn ideas into momentum</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="bg-base-100 px-6 py-20">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-10 max-w-2xl">
+          <h2 class="text-3xl font-bold">Begin with featured learning paths</h2>
+          <p class="mt-3 text-base-content/70">
+            DaisyUI cards make it easy to spotlight the next set of motivation-focused videos as the
+            site grows.
+          </p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3">
+          <div class="card bg-base-200 shadow-lg">
+            <div class="card-body">
+              <h3 class="card-title">Self-efficacy</h3>
+              <p>Build confidence by understanding how small wins reinforce long-term effort.</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-primary badge-outline">Mindset</div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-200 shadow-lg">
+            <div class="card-body">
+              <h3 class="card-title">Goal design</h3>
+              <p>Learn how clear, meaningful goals create stronger commitment and follow-through.</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-secondary badge-outline">Planning</div>
+              </div>
+            </div>
+          </div>
+          <div class="card bg-base-200 shadow-lg">
+            <div class="card-body">
+              <h3 class="card-title">Habit reinforcement</h3>
+              <p>Use cues, rewards, and reflection to maintain motivation beyond the first spark.</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-accent badge-outline">Consistency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
