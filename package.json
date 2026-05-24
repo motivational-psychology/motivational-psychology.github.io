@@ -1,0 +1,28 @@
+{
+  "name": "motivational-psychology.github.io",
+  "version": "1.0.0",
+  "description": "Astro landing page for Motivational Psychology",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motivational-psychology/motivational-psychology.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motivational-psychology/motivational-psychology.github.io/issues"
+  },
+  "homepage": "https://github.com/motivational-psychology/motivational-psychology.github.io#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "astro": "^6.3.7",
+    "daisyui": "^5.5.20",
+    "tailwindcss": "^4.3.0"
+  }
+}
